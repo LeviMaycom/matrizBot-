@@ -3,7 +3,7 @@ import { Command } from "../../structs/types/Command";
 
 
 export default new Command({
-    name: "loop",
+    name: "ip",
     description: "Mostra o IP do servidor",
     type: ApplicationCommandType.ChatInput,
     run({interaction}){
